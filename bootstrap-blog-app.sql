@@ -1,14 +1,4 @@
 
-
-CREATE TABLE grades (
-    id serial PRIMARY KEY,
-    "date" timestamptz NOT NULL,
-    grade text NOT NULL,
-    score integer NOT NULL,
-    restaurant_id integer REFERENCES restaurants
-);
-
-
 CREATE TABLE users (
   id serial PRIMARY KEY,
   firstName text,
