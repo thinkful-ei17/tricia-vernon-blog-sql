@@ -1,4 +1,4 @@
-//reset
+/* reset */
 DROP TABLE users, posts, comments, tags, post_tags;
 
 CREATE TABLE users (
